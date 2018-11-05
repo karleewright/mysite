@@ -8,19 +8,19 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-
+import Home from "./components/Home";
 class App extends Component {
   render() {
     return (
     <Router>
       <div className="App">
         <Navbarmenu />
-        
+       
        
        
     
       
-        
+        <Route exact path="/" component={Home}/>
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/resume" component={Resume} />

@@ -49,7 +49,9 @@ export default class Navbarmenu extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
+      
       </div>
+    
     );
   }
 }
