@@ -41,7 +41,7 @@ export default class Navbarmenu extends React.Component {
                 <NavLink href="/contact">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="./public/Resume_20181104_Rev0.pdf">Resume</NavLink>
+                <NavLink href="Resume_20181104_Rev0.pdf">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/projects">Projects</NavLink>
