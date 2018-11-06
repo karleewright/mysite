@@ -22,7 +22,30 @@
   color: #61dafb;
 }
 
+.form-container {
+   border: 1px solid red; 
+  /* width: 75%; */
+  align-self: center;
+  padding: 5em
+}
 
+.form-text  {
+  text-align: left
+}
+
+.form-body {
+
+  /* border: #282c34 1px solid; */
+  margin: auto;
+  padding: 100px;
+
+  
+
+}
+
+form {
+  padding: 100px
+}
 
 
 

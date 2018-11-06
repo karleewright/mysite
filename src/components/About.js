@@ -28,7 +28,7 @@ class About extends Component {
   <CardBody>
     <CardTitle tag="h5">Professional</CardTitle>
     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-    <Button color="light-blue" size="md" href="/resume">View Resume</Button>
+    <Button color="light-blue" size="md" href="Resume_20181104_Rev0.pdf">View Resume</Button>
     
   </CardBody>
 </Card>
