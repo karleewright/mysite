@@ -11,7 +11,7 @@ class Home extends Component {
         <hr className="my-2" />
         <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
         <p className="lead">
-          <Button color="primary">Learn More</Button>
+          <Button color="primary" href = "/contact"> Let's Connect!</Button>
         </p>
       </Jumbotron>
       </div>

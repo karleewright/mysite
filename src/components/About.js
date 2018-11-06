@@ -19,7 +19,7 @@ class About extends Component {
   <CardBody>
     <CardTitle tag="h5">Personal</CardTitle>
     <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-    <Button color="light-blue" size="md">read more</Button>
+    <Button color="light-blue" size="md" href="/blog">View Blog Page</Button>
   </CardBody>
 </Card>
 

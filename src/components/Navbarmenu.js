@@ -26,7 +26,7 @@ export default class Navbarmenu extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar color="info" light expand="md">
           <NavbarBrand href="/">Karlee Wright</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -41,10 +41,13 @@ export default class Navbarmenu extends React.Component {
                 <NavLink href="/contact">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="/resume">Resume</NavLink>
+                <NavLink href="./public/Resume_20181104_Rev0.pdf">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/projects">Projects</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/blog">Blog</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

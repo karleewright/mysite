@@ -9,6 +9,8 @@ import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
+import Blog from './components/Blog';
+
 class App extends Component {
   render() {
     return (
@@ -24,6 +26,7 @@ class App extends Component {
         <Route path="/about" component={About}/>
         <Route path="/contact" component={Contact}/>
         <Route path="/resume" component={Resume} />
+        <Route path="/blog" component={Blog} />
         <Route path="/projects" component={Projects} />
       </div>
     </Router>
