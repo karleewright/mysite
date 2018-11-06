@@ -47,6 +47,10 @@ form {
   padding: 100px
 }
 
+.card-image-container {
+ border: red, solid, 10px;
+}
+
 
 
 @keyframes App-logo-spin {

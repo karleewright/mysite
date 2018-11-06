@@ -6,32 +6,25 @@ const Example = (props) => {
   return (
     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg className = "card-img-container" top width="50%" src="http://icons-for-free.com/free-icons/png/512/308434.png" alt="Card image cap"/>
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Online Store</CardTitle>
+          <CardSubtitle>Techologies: Angular, Mongoose, Hapi</CardSubtitle>
+          <CardText>With a team, we built a store application using the above technologies.</CardText>
+          <Button>Take a look</Button>
         </CardBody>
       </Card>
+
       <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
+        <CardImg top width="50%" src="https://static1.squarespace.com/static/5432917ae4b0f9bd2d17f873/t/590776993e00be8692d21c0c/1493661340843/?format=750w" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This card has supporting text below as a natural lead-in to additional content.</CardText>
+          <CardTitle>Documentary Log App</CardTitle>
+          <CardSubtitle>Technologies: TBD</CardSubtitle> <br/>
+          <CardText>I love documentaries! <div/>Take a look at this full stack app I created to help me log and keep track of them! </CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=256%C3%97180&w=256&h=180" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
+      
     </CardDeck>
   );
 };
