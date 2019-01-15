@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Container, Row, Col, Input, Button, Fa, Card } from 'mdbreact';
+import {IoAlertCircled} from 'react-icons/lib/fa';
 
 
 
@@ -8,11 +9,9 @@ class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>Let's Connect!</h1>
-        <p1> LinkedIn / GitHub </p1> <br/>
-          <p2>Logos</p2>
-        
-      {/* <Container className = "form-container"> */}
+        <h1>Let's Connect! </h1>     
+        <h2>Fill out the form below to send an email or give me a call at (801)573-3882 </h2>
+    
         <Row>
         
           <Col className = "form-body" md="6">
@@ -33,35 +32,17 @@ class Contact extends Component {
               </div>
 
             </form>
+           
             </Card>
             </Col>
-           
           </Row>
-        {/* </Container> */}
-              {/* <form action="https://formspree.io/your@email.com" method="POST">
-                  <input type="text" name="name">
-                  <input type="email" name="_replyto">
-                  <input type="submit" value="Send">
-                  </form> */}
-      </div>
-        
+      
+     </div>
     );
   }
 }
 
 
-
-
-
-      // <div className="name-form">
-      //     <h1>Contact Me!</h1>
-      //     <form method="POST" action="https://formspree.io/karleewright87@gmail.com"/>
-      //     <input type="email" name="email" placeholder="Your email"/><br/>
-      //     <textarea name="message" placeholder="Enter your Message"/><br/>
-      //     <button type="submit">Send Message</button>
-      // </div>
-
-  
 
 
 export default Contact;

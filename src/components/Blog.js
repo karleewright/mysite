@@ -1,12 +1,22 @@
 import React, { Component } from 'react';
+import { CardBody, CardImage } from 'mdbreact';
+var Underconstruction = require('../Assets/Underconstruction.png');
 
 class Blog extends Component {
   render() {
     return (
-      <div className="name-form">
-          <h1>My Blog Powered by Gatsby!</h1>
-        
+      <div>
+      <CardImage  className="myblog" img src= {Underconstruction}  />
+     
+
+      <h1>
+      My Future Blog Under Construction
+      </h1>  
+      
       </div>
+   
+     
+
     );
   }
 }

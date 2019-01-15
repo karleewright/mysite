@@ -6,8 +6,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
+  NavLink
 } from "reactstrap";
+import "../CSS/Style.css";
 
 export default class Navbarmenu extends React.Component {
   constructor(props) {
@@ -23,15 +24,22 @@ export default class Navbarmenu extends React.Component {
       isOpen: !this.state.isOpen
     });
   }
+
+  
+  
   render() {
     return (
       <div>
-        <Navbar color="info" light expand="md">
-          <NavbarBrand href="/">Karlee Wright</NavbarBrand>
+        <Navbar className="allNav" color="info" light expand="md">
+  
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
+          <Nav className="ml-auto" navbar>
+
+      
+         
+           
+           <NavItem>
                 <NavLink href="/">Home</NavLink>
               </NavItem>
               <NavItem>
@@ -41,7 +49,7 @@ export default class Navbarmenu extends React.Component {
                 <NavLink href="/contact">Contact</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="Resume_20181104_Rev0.pdf">Resume</NavLink>
+                <NavLink href="/Resume_20181104_Rev0-1.pdf">Resume</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="/projects">Projects</NavLink>
@@ -52,9 +60,7 @@ export default class Navbarmenu extends React.Component {
             </Nav>
           </Collapse>
         </Navbar>
-      
       </div>
-    
     );
   }
 }

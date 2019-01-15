@@ -1,0 +1,29 @@
+.personal {
+    border-image: 50 em;
+    border-image-width: 50%;
+    height: 50%;
+}
+.card-img-top{
+    height: 10%;
+    width: 20%;
+}
+.allNav{
+    font: size 2em;
+}
+.myblog {
+    height: 100%;
+    width:100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-content: center;
+
+}
+.ml-auto {
+    font-size: 2em;
+    
+
+}
+.home {
+    padding-top: 10%;
+}
+

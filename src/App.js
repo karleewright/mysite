@@ -7,31 +7,34 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import FooterPage from "./components/FooterPage";
 import Home from "./components/Home";
 import Blog from './components/Blog';
+import './CSS/Style.css';
+
 
 class App extends Component {
   render() {
     return (
     <Router>
       <div className="App">
-        <Navbarmenu />
+        <Navbarmenu className= "Nav"/>
+  
        
        
-       
-    
-      
-        <Route exact path="/" component={Home}/>
-        <Route path="/about" component={About}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/resume" component={Resume} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/projects" component={Projects} />
-      </div>
-    </Router>
+       <Route exact path="/" component={Home}/>
+       <Route path="/about" component={About}/>
+       <Route path="/contact" component={Contact}/>
+       <Route path= "/resume" component={Resume} />
+       <Route path="/blog" component={Blog} />
+       <Route path="/projects" component={Projects} />
+       <FooterPage/>
+       </div>
+     
+    </Router>   
     );
   }
 }
+        
 
 export default App;
